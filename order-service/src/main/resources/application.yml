@@ -11,9 +11,6 @@ spring:
   cloud:
     nacos:
       server-addr: localhost:8848
-      discovery:
-        cluster-name: HZ
-        namespace: 92ecc0a3-3f25-4ef2-8b9f-04fce017e480
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
