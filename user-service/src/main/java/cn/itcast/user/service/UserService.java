@@ -3,6 +3,7 @@ package cn.itcast.user.service;
 import cn.itcast.user.mapper.UserMapper;
 import cn.itcast.user.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 @Service
